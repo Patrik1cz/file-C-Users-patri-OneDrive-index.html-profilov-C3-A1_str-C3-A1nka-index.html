@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osobní Profil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#about">O Mně</a></li>
+                <li><a href="#projects">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="intro">
+            <h1>Vítejte na mém profilu</h1>
+            <p>Jsem Patrik Maslák, webový vývojář.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>O Mně</h2>
+        <p>Jsem webový vývojář se zaměřením na frontend technologie. Mám zkušenosti s HTML, CSS, JavaScript a dalšími technologiemi.</p>
+        <img src="images/black-ford-mustang-2019-5k-xu.jpg" alt="Profilový obrázek" class="profile-img">
+    </section>
+
+    <section id="projects">
+        <h2>Projekty</h2>
+        <div class="project">
+            <h3>Projekt 1</h3>
+            <p>Napiš zprávu, ve které udáš své jméno,email,zprávu.</p>
+        </div>
+        <div class="project">
+            <h3>Projekt 2</h3>
+            <p>Pošleš email a hotovo.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contactForm">
+            <label for="name">Jméno:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Zpráva:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Odeslat</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Patrik Maslák. Všechna práva vyhrazena.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
